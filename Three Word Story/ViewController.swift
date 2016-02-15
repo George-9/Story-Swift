@@ -3,7 +3,7 @@
 //  Three Word Story
 //
 //  Created by George Ashton on 30/08/2015.
-//  Copyright © 2015 WolfTechApps. All rights reserved.
+//  Copyright © 2015 George Ashton. All rights reserved.
 //
 
 import UIKit

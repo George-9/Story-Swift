@@ -3,7 +3,7 @@
 //  Three Word Story
 //
 //  Created by George Ashton on 30/08/2015.
-//  Copyright © 2015 WolfTechApps. All rights reserved.
+//  Copyright © 2015 George Ashton. All rights reserved.
 //
 
 import UIKit
@@ -49,7 +49,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // MARK: - Core Data stack
 
     lazy var applicationDocumentsDirectory: NSURL = {
-        // The directory the application uses to store the Core Data store file. This code uses a directory named "com.wolftechapps.Three_Word_Story" in the application's documents Application Support directory.
+        // The directory the application uses to store the Core Data store file. This code uses a directory named "com.George Ashton.Three_Word_Story" in the application's documents Application Support directory.
         let urls = NSFileManager.defaultManager().URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)
         return urls[urls.count-1]
     }()
