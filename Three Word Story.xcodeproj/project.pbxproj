@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E03B93F1C1C627100045C62 /* GameKitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E03B93E1C1C627100045C62 /* GameKitHelper.swift */; };
+		5E7845CB1B94AB880092F12A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7845CA1B94AB880092F12A /* SystemConfiguration.framework */; };
+		5E7C80E31B95B69E008BBC43 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7C80E21B95B69E008BBC43 /* GameKit.framework */; };
+		5EA1893E1BC15A04002BB835 /* EasyGameCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA1893D1BC15A04002BB835 /* EasyGameCenter.swift */; };
+		5EA189401BC15A21002BB835 /* Packet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA1893F1BC15A21002BB835 /* Packet.swift */; };
+		5EA9C3661B93312500965D7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA9C3651B93312500965D7E /* AppDelegate.swift */; };
+		5EA9C3681B93312500965D7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA9C3671B93312500965D7E /* ViewController.swift */; };
+		5EA9C36B1B93312500965D7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EA9C3691B93312500965D7E /* Main.storyboard */; };
+		5EA9C36E1B93312500965D7E /* Three_Word_Story.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5EA9C36C1B93312500965D7E /* Three_Word_Story.xcdatamodeld */; };
+		5EA9C3701B93312500965D7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EA9C36F1B93312500965D7E /* Assets.xcassets */; };
+		5EA9C3731B93312500965D7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EA9C3711B93312500965D7E /* LaunchScreen.storyboard */; };
+		5EA9C37B1B93324100965D7E /* StoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA9C37A1B93324100965D7E /* StoryViewController.swift */; };
+		5EA9FB011BDBA167004CE8A3 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EA9FB001BDBA167004CE8A3 /* SpriteKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5E03B93E1C1C627100045C62 /* GameKitHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameKitHelper.swift; sourceTree = "<group>"; };
+		5E7845CA1B94AB880092F12A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5E7C80E21B95B69E008BBC43 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		5EA1893D1BC15A04002BB835 /* EasyGameCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyGameCenter.swift; sourceTree = "<group>"; };
+		5EA1893F1BC15A21002BB835 /* Packet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Packet.swift; sourceTree = "<group>"; };
+		5EA9C3621B93312500965D7E /* Three Word Story.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Three Word Story.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EA9C3651B93312500965D7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5EA9C3671B93312500965D7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5EA9C36A1B93312500965D7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5EA9C36D1B93312500965D7E /* Three_Word_Story.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Three_Word_Story.xcdatamodel; sourceTree = "<group>"; };
+		5EA9C36F1B93312500965D7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EA9C3721B93312500965D7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5EA9C3741B93312500965D7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EA9C37A1B93324100965D7E /* StoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryViewController.swift; sourceTree = "<group>"; };
+		5EA9FB001BDBA167004CE8A3 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EA9C35F1B93312500965D7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EA9FB011BDBA167004CE8A3 /* SpriteKit.framework in Frameworks */,
+				5E7845CB1B94AB880092F12A /* SystemConfiguration.framework in Frameworks */,
+				5E7C80E31B95B69E008BBC43 /* GameKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EA9C3591B93312500965D7E = {
+			isa = PBXGroup;
+			children = (
+				5EA9FB001BDBA167004CE8A3 /* SpriteKit.framework */,
+				5E7C80E21B95B69E008BBC43 /* GameKit.framework */,
+				5E7845CA1B94AB880092F12A /* SystemConfiguration.framework */,
+				5EA9C3641B93312500965D7E /* Three Word Story */,
+				5EA9C3631B93312500965D7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EA9C3631B93312500965D7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EA9C3621B93312500965D7E /* Three Word Story.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EA9C3641B93312500965D7E /* Three Word Story */ = {
+			isa = PBXGroup;
+			children = (
+				5EA9C3651B93312500965D7E /* AppDelegate.swift */,
+				5EA9C3671B93312500965D7E /* ViewController.swift */,
+				5EA9C37A1B93324100965D7E /* StoryViewController.swift */,
+				5EA9C3691B93312500965D7E /* Main.storyboard */,
+				5EA1893D1BC15A04002BB835 /* EasyGameCenter.swift */,
+				5E03B93E1C1C627100045C62 /* GameKitHelper.swift */,
+				5EA1893F1BC15A21002BB835 /* Packet.swift */,
+				5EA9C36F1B93312500965D7E /* Assets.xcassets */,
+				5EA9C3711B93312500965D7E /* LaunchScreen.storyboard */,
+				5EA9C3741B93312500965D7E /* Info.plist */,
+				5EA9C36C1B93312500965D7E /* Three_Word_Story.xcdatamodeld */,
+			);
+			path = "Three Word Story";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EA9C3611B93312500965D7E /* Three Word Story */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EA9C3771B93312500965D7E /* Build configuration list for PBXNativeTarget "Three Word Story" */;
+			buildPhases = (
+				5EA9C35E1B93312500965D7E /* Sources */,
+				5EA9C35F1B93312500965D7E /* Frameworks */,
+				5EA9C3601B93312500965D7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Three Word Story";
+			productName = "Three Word Story";
+			productReference = 5EA9C3621B93312500965D7E /* Three Word Story.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EA9C35A1B93312500965D7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = WolfTechApps;
+				TargetAttributes = {
+					5EA9C3611B93312500965D7E = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 7RGB38XGJ2;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 5EA9C35D1B93312500965D7E /* Build configuration list for PBXProject "Three Word Story" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EA9C3591B93312500965D7E;
+			productRefGroup = 5EA9C3631B93312500965D7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EA9C3611B93312500965D7E /* Three Word Story */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EA9C3601B93312500965D7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EA9C3731B93312500965D7E /* LaunchScreen.storyboard in Resources */,
+				5EA9C3701B93312500965D7E /* Assets.xcassets in Resources */,
+				5EA9C36B1B93312500965D7E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EA9C35E1B93312500965D7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EA9C37B1B93324100965D7E /* StoryViewController.swift in Sources */,
+				5E03B93F1C1C627100045C62 /* GameKitHelper.swift in Sources */,
+				5EA9C3681B93312500965D7E /* ViewController.swift in Sources */,
+				5EA1893E1BC15A04002BB835 /* EasyGameCenter.swift in Sources */,
+				5EA189401BC15A21002BB835 /* Packet.swift in Sources */,
+				5EA9C36E1B93312500965D7E /* Three_Word_Story.xcdatamodeld in Sources */,
+				5EA9C3661B93312500965D7E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5EA9C3691B93312500965D7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EA9C36A1B93312500965D7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5EA9C3711B93312500965D7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EA9C3721B93312500965D7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EA9C3751B93312500965D7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5EA9C3761B93312500965D7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EA9C3781B93312500965D7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Three Word Story/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wolftechapps.Three-Word-Story";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5EA9C3791B93312500965D7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Three Word Story/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wolftechapps.Three-Word-Story";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EA9C35D1B93312500965D7E /* Build configuration list for PBXProject "Three Word Story" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EA9C3751B93312500965D7E /* Debug */,
+				5EA9C3761B93312500965D7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EA9C3771B93312500965D7E /* Build configuration list for PBXNativeTarget "Three Word Story" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EA9C3781B93312500965D7E /* Debug */,
+				5EA9C3791B93312500965D7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5EA9C36C1B93312500965D7E /* Three_Word_Story.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5EA9C36D1B93312500965D7E /* Three_Word_Story.xcdatamodel */,
+			);
+			currentVersion = 5EA9C36D1B93312500965D7E /* Three_Word_Story.xcdatamodel */;
+			path = Three_Word_Story.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5EA9C35A1B93312500965D7E /* Project object */;
+}
